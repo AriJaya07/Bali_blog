@@ -1,11 +1,30 @@
-# Getting Started with Create React App
+# React Blog App about Bali Island
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+Creating a Blog application. I am going to be hosting it on firebase to share it. 
 [Live Demo](https://ari-baliumkm.web.app/)
 
-## Available Scripts
+## Creating Ract App
+    npx create-react-app my-app
+    
+## Installation adding packages
+    npm install @emailjs/browser firebase
 
+## Create the component folder and the file
+Example: (src folder)
+1. component (folder)
+   - about 
+      - file js & css
+   - contact
+     - file js & css
+   - intro
+     - file js & css
+   - post
+     - file js & css
+   - postList
+     - file js & css
+2. app.js
+3. index.js
+  
 In the project directory, you can run:
 
 ### `npm start`
@@ -28,6 +47,15 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
+
+# Log in to github and create new repository [Github](https://github.com/AriJaya07)
+In your terminal type following in the "<name_app>" directory
+
+    git init
+    git add .
+    git commit -am "message"
+    git remote add origin https://github.com/AriJaya07/Bali_blog.git
+    git push origin master
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
