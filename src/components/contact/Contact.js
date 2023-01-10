@@ -28,7 +28,7 @@ const Contact = () => {
         <div className="c-bg"></div>
         <div className="c-wrapper">
             <div className="c-left">
-                <h1 className="c-title">Let's discuss your project</h1>
+                <h1 className="c-title">Let's discuss your journay</h1>
                 <div className="c-info">
                     <div className="c-info-item">
                         <img src='https://th.bing.com/th/id/R.87be71bb05fe70796027da0d3623a065?rik=DwcN8%2fAzYmCDxg&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2f9i4%2fo5R%2f9i4o5RkiE.png&ehk=4h84yGBXLiVP%2ffVpTuOp8i0kHi5xS3iCTVlhvUF%2bkdE%3d&risl=&pid=ImgRaw&r=0' alt="" className="c-icon" />
@@ -46,7 +46,7 @@ const Contact = () => {
             </div>
             <div className="c-right">
                 <p className="c-desc">
-                    <b>What are you go to Bali island?</b> If you have any qustion you can contact me. Always available for guiding to Bali destination.
+                    <b>What are you go to Bali island?</b> If you have any qustion, you can contact me. Always available for guiding to Bali destination.
                 </p> 
                 <form ref={formRef} onSubmit={handleSubmit}>
                     <input type="text" placeholder="Name" name="user_name" />

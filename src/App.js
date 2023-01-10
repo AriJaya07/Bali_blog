@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Intro />
-      <h1>
+      <h1 style={{ color: '#0e9d57'}}>
         -
       </h1>
       <PostList />

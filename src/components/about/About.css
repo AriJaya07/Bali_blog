@@ -33,16 +33,26 @@
     overflow: hidden;
 }
 
+.a-card:hover {
+    background-color: #333; 
+}
+
 .a-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
+
 .a-award-img {
     height: 200px;
     border-radius: 20px;
     padding: 10px;
+}
+
+.a-award-img:hover {
+    border: 4px solid rgba(249, 249, 249, 0.8);
+    transition-duration: 300ms;
 }
 
 .a-title {
